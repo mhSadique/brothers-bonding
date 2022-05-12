@@ -1,0 +1,30 @@
+.box {
+  width: 1350px;
+  height: 800px;
+  background: red;
+  animation-name: heroalom;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.box:hover {
+  background: blue;
+}
+
+@keyframes heroalom {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: rgb(0, 255, 255);
+  }
+}
+.hero {
+  width: 150px;
+}
+.love {
+  height: 150;
+}
+.centered {
+  text-align: center;
+}
